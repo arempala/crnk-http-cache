@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Import;
 import io.crnk.spring.boot.v3.CrnkConfigV3;
 
 @Configuration
-//@EnableAspectJAutoProxy(proxyTargetClass = true)
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 @Import({ CrnkConfigV3.class })
 public class App extends SpringBootServletInitializer {
