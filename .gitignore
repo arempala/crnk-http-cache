@@ -1,0 +1,22 @@
+# Maven
+log/
+/logs/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+#others
+bin/
+rebel.xml
+*.iml
+.springBeans
+.checkstyle
+/target/
