@@ -1,4 +1,6 @@
-
+#Http Caching with Crnk
+This PoC uses a native aspectj to implement http caching for Crnk.
+this version uses load-time-weaving - LTW
 
 mvn clean install
 
